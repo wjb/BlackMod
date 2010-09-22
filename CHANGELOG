@@ -1,0 +1,49 @@
+0.0.15
+Removed drawables not used by froyo.  Thanks to Dave Id for pointing this out.
+
+0.0.14
+makefile fixes
+
+0.0.13
+Upgraded to support CM6
+makefile help from github/wjb
+
+0.0.12
+Fixed a couple images that I missed in framework-res/drawable-mdpi
+Thanks bkmo
+
+0.0.11
+Themed icon additions for the ADWLauncher app
+
+0.0.10
+Themed icon additions for the ADWLauncher and Spareparts sections in Settings
+
+0.0.9
+Now supports D/S
+Fixes on some graphics
+Added Theme Defaults program
+
+0.0.8
+Fixed a permissions issue
+
+0.0.7
+Patches included to remove the recovery.img and recovery directories.
+
+0.0.6
+Changed a few things in the install script to properly set the default colors
+
+0.0.5
+Change's made to support Wysie's Colors changes; sets default colors at install
+time
+
+0.0.4:
+The theme is now integrated at build time. I've themed several parts that weren't themed before.
+
+0.0.3:
+Recompiled all .9.pngs from source just for good measure. (done in part of fixing for thedude)
+
+0.0.2:
+Fixed a few .9.pngs that were acting funny (thanks prash for finding)
+
+0.0.1:
+Initial Release
