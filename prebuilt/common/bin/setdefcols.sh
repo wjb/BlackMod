@@ -83,7 +83,7 @@ echo "<string name=\"show_plmn_ls\" value=\"true\" />" >> com.cyanogenmod.cmpart
 /system/xbin/sqlite3 /data/data/com.android.providers.settings/databases/settings.db "INSERT INTO \"system\" (\"name\", \"value\") VALUES('no_notifications_color','-1');"
 #clear button label color
 /system/xbin/sqlite3 /data/data/com.android.providers.settings/databases/settings.db "DELETE FROM \"system\" WHERE \"name\" = \"clear_button_label_color\";"
-/system/xbin/sqlite3 /data/data/com.android.providers.settings/databases/settings.db "INSERT INTO \"system\" (\"name\", \"value\") VALUES('clear_button_label_color','-1');"
+/system/xbin/sqlite3 /data/data/com.android.providers.settings/databases/settings.db "INSERT INTO \"system\" (\"name\", \"value\") VALUES('clear_button_label_color','0');"
 #ongoing notifications color
 /system/xbin/sqlite3 /data/data/com.android.providers.settings/databases/settings.db "DELETE FROM \"system\" WHERE \"name\" = \"ongoing_notifications_color\";"
 /system/xbin/sqlite3 /data/data/com.android.providers.settings/databases/settings.db "INSERT INTO \"system\" (\"name\", \"value\") VALUES('ongoing_notifications_color','-1');"
